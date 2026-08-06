@@ -9,6 +9,7 @@ import { Logo } from "@/components/logo";
 import { PageSection } from "@/components/page-section";
 import { SidebarLayoutContent } from "@/components/sidebar-layout";
 import { getModules, type Module } from "@/data/lessons";
+import { ArticleIcon } from "@/icons/article-icon";
 import { BookIcon } from "@/icons/book-icon";
 import { LessonsIcon } from "@/icons/lessons-icon";
 import { PlayIcon } from "@/icons/play-icon";
@@ -62,8 +63,15 @@ export default async function Page() {
                   <LessonsIcon className="stroke-gray-950/40 dark:stroke-white/40" />
                   {lessons.length} chapters
                 </div>
+                <span className="hidden text-gray-950/25 sm:inline dark:text-white/25">
+                  &middot;
+                </span>
+                <div className="flex items-center gap-1.5">
+                  <ArticleIcon className="fill-gray-950 stroke-gray-950/40 dark:fill-white dark:stroke-white/40" />
+                  16 of 100 interviews
+                </div>
               </div>
-              <div className="mt-10">
+              <div className="mt-10 flex flex-wrap items-center gap-4">
                 <Link
                   href={`/${modules[0].lessons[0].id}`}
                   className="inline-flex items-center gap-x-2 rounded-full bg-brand px-3 py-0.5 text-sm/7 font-semibold text-white hover:bg-brand-deep"
@@ -71,6 +79,56 @@ export default async function Page() {
                   <PlayIcon className="fill-white" />
                   Start reading
                 </Link>
+                <Link
+                  href="/case-studies"
+                  className="text-sm/7 font-semibold text-brand-deep hover:text-brand dark:text-brand"
+                >
+                  Or jump to the case studies &rarr;
+                </Link>
+              </div>
+            </div>
+
+            <div className="mb-16 max-w-2xl sm:px-4">
+              <h2 className="text-2xl/7 font-medium tracking-tight text-gray-950 dark:text-white">
+                What this is
+              </h2>
+              <div className="mt-4 space-y-4 text-base/7 text-gray-700 sm:text-sm/7 dark:text-gray-400">
+                <p>
+                  Most writing about hackathons is for hackers. This guide is
+                  for the people who run them. It's built from an ongoing
+                  research project: interviewing{" "}
+                  <strong className="font-semibold text-gray-950 dark:text-white">
+                    100 hackathon organizers
+                  </strong>{" "}
+                  — 16 interviews in so far — behind events ranging from a
+                  first-ever 150-person college hackathon to 3,000-hacker
+                  flagships, a government-backed event in China, and a European
+                  hackathon that runs as a company with €800K in revenue.
+                </p>
+                <p>
+                  Every chapter combines three things: anonymized stories and
+                  hard benchmarks from those interviews, specific ways
+                  organizers are using AI beyond the surface level, and a
+                  checklist of artifacts you should have at each stage. The
+                  chapters follow the organizer's journey in order — purpose,
+                  timeline, team, participants, marketing, funding, logistics,
+                  experience, follow-through — so you can read front to back
+                  before your first event, or jump straight to the fire you're
+                  fighting.
+                </p>
+                <p>
+                  Interview stories are anonymized; the{" "}
+                  <Link
+                    href="/case-studies"
+                    className="font-semibold text-brand-deep hover:text-brand dark:text-brand"
+                  >
+                    case studies
+                  </Link>{" "}
+                  are published with organizer review. The research is led by
+                  Chinat Yu (Stanford hackathon researcher, 50+ hackathons) in
+                  collaboration with freeCodeCamp — and the guide grows with
+                  every interview.
+                </p>
               </div>
             </div>
 

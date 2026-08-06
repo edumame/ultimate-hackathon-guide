@@ -29,11 +29,11 @@ export async function getCaseStudyContent(slug: string) {
 
 const caseStudies = [
   {
-    id: "hackathon-at-berkeley",
-    org: "Hackathon at Berkeley",
-    title: "How Hackathon at Berkeley runs it",
+    id: "west-coast-flagship",
+    org: "A West Coast flagship",
+    title: "How a 3,000-hacker flagship runs it",
     description:
-      "Two events a year — a 3,000+ hacker flagship in San Francisco and a summer AI hackathon — run by a 26-person democratic org with three tiers and eight sub-teams.",
+      "Two events a year — a 3,000+ hacker fall flagship and a smaller summer AI hackathon — run by a 26-person democratic org with eight sub-teams.",
     snapshot: [
       "3,000+ hackers at the flagship",
       "2 events per year",
@@ -42,11 +42,11 @@ const caseStudies = [
     ],
   },
   {
-    id: "pass-hackathon",
-    org: "PASS Hackathon (UC Santa Cruz)",
+    id: "campus-event-400",
+    org: "A 400-hacker campus event",
     title: "How a 12-person team runs a 400-hacker event",
     description:
-      "PASS Hackathon 2026 hosted 400+ attendees over three days in January with 12 core organizers, $33.5K raised, and a judging plan resilient enough to survive a mid-event medical emergency.",
+      "A three-day winter event with 400+ attendees run by 12 core organizers — $33.5K raised, a decade-old board, and a judging plan resilient enough to survive a mid-event medical emergency.",
     snapshot: [
       "400+ attendees",
       "12 core organizers",
