@@ -1,61 +1,66 @@
 # Venue, Logistics, and Run of Show
 
-The three-month build, the two-week run-of-show lock, and planning for the emergencies you can't predict.
+The invisible half of the event: admin webs, war stories, and why every buffer needs to work in both directions.
+
+## Logistics is invisible until it breaks
+
+A logistics director at a 1,000-hacker flagship described her role best: if logistics runs well nobody notices; if it runs poorly, everyone does. Her event required coordinating **nine separate administrative contacts** — each a year-long email thread, each workstream backed by 2–3 university staff. Getting llamas on campus for a petting hour took six people just for the llama insurance. A Tesla-coil art build cleared every fire-marshal approval and was still cancelled late over frequency interference. "Hundreds of emails" a day, and a job she calls "a two-person job given to one person."
+
+Her control mechanism is worth stealing: she **shares the master logistics spreadsheet with all nine admins**, so they cross-check *each other* — the Wi-Fi installer and the table crew discover their conflict in the sheet, not in the loading dock. Transparency is the coordination.
 
 ## Venue first, everything after
 
-The venue is the longest-lead decision and the one that constrains all the others: capacity caps your admissions, overnight policy shapes your schedule, catering rules shape your food plan, and A/V determines your ceremonies. Lock it before the three-month build begins ([see the timeline](/organizers-timeline)).
+The venue is the longest-lead decision and constrains everything: capacity caps admissions, overnight policy shapes the schedule, catering rules shape food, A/V determines ceremonies. Resolve in writing: overnight access, power density and wifi at full load, food service rules, security requirements, and which rooms you *actually* control hour-by-hour.
 
-Questions to resolve in writing with the venue, not on event day:
+Three field notes:
 
-- Overnight access and sleeping areas — is this actually a 24/36-hour event?
-- Power density and wifi capacity at full load (hackers bring 2–3 devices each)
-- Food service rules, loading docks, and trash logistics
-- Security requirements and emergency procedures
-- Which rooms you *actually* control, hour by hour
+- **Security costs can double year-over-year** — one flagship was blindsided by it (17 security personnel at one opening ceremony). Budget it as a variable, not a constant.
+- **Sockets and signage are the experience.** A European COO's two biggest pain points from her own participant days: arriving late with no findable instructions (all comms assumed you'd made the opening ceremony), and no seat near a power socket. Extension cords are the archetypal underestimated detail.
+- **No storage means your apartment is the warehouse.** With no campus storage, one team's organizers spend the two pre-event weeks living among cardboard boxes — one stored 35 boxes of t-shirts at home. Plan the staging space, not just the venue.
 
-## The build checklist
+And have a venue fallback muscle: a European org's university banned their defense-tech hackathon as "a political event" **three days out**. They phoned their way to a replacement venue ten minutes away, ran the event — and after the country's foreign minister spoke at it, the university reversed its position entirely.
 
-From the interviews, the three-month workstream breaks into parallel tracks:
+## The build
 
-- **Venue and resources** — confirm rooms, furniture, power, signage
-- **Food** — vendors, dietary coverage, delivery timing. Field note: the teams we interviewed deliberately over-ordered snacks. A surplus is cheap insurance; a shortage is what hackers remember.
-- **Portals** — registration, check-in, and submission systems, built as a steady workstream by the engineering team, not a final-week sprint
-- **People ops** — volunteer recruitment, mentor and judge scheduling, walkie-talkie or radio plan for day-of coordination (the Berkeley team runs their events on walkie-talkies)
-
-Track it all with the weekly all-hands plus direct owner follow-ups — the cadence both interviewed teams independently converged on.
+- **Food** — vendors, dietary coverage, timing. Deliberately over-order snacks; get five competing quotes and play them against each other (one team cut merch and catering costs sharply this way); and remember buffers cut both ways: one team's meal plan assumed vendors run late, and the vendors arrived **90 minutes early**, colliding with the sponsor fair.
+- **Portals** — registration, check-in, submissions built as a steady workstream. Test them on a smaller event first: one team's brand-new check-in system failed completely on its first live run; the president drove to Walmart mid-event and checked people in with wristbands. Always have the wristband plan.
+- **People ops** — volunteer recruitment (with clear jobs: one event had "too many volunteers who didn't know what to do" and inverted to more organizers, each directing a small volunteer pod), mentor and judge scheduling, and a radio plan — walkie-talkies came up in interview after interview, born at one org from the day a single physical room key became the bottleneck for eight sub-teams.
 
 ## The run of show
 
-Finalize the run of show **two weeks before the event** — the timing both teams use. Earlier and it churns; later and there's no time to rehearse, staff it, and brief everyone.
+Lock it one to three weeks out. Minute-by-minute for transitions (doors, ceremonies, judging, meals), block-based between, a named owner per line, full run-through in the final week.
 
-A real run of show is minute-by-minute for transitions (doors, ceremonies, judging, meals) and block-based in between, with a named owner per line item. Do a full schedule run-through with the team in the final week.
+Structural wisdom from a dev lead we interviewed, via his president: a hackathon is like a plane flight — bumpy takeoff, smooth cruise, rough landing. **Over-invest in the opening and closing ceremonies**; that's where turbulence concentrates and where memories form.
 
-## Plan for the emergency you can't predict
+Two schedule rules paid for in pain:
 
-The strongest logistics story from our interviews: mid-event, a medical emergency (a seizure) forced the Santa Cruz team to halt in-person judging entirely. Because they could fall back to **fully virtual judging via Google Forms**, the event continued with only a 30–45 minute delay.
+- **Build a submission buffer.** One event's hackers physically could not finish projects and complete the submission flow by the deadline; organizers pushed the deadline live, mid-panic. It's now a permanent hour of buffer between hacking end and judging start.
+- **Design the most stressful hour for calm.** The same team once posted judging table assignments as a single Google Sheet link in Discord — a thousand sleep-deprived, over-caffeinated hackers hit it simultaneously at 7 AM and it went down. The plan now: personalized notifications ("this is your table"). At submissions hour, nobody has slept; every system should assume it.
 
-The lesson generalizes: you can't predict the specific emergency, but you can pre-decide the fallbacks —
+## Emergencies: pre-decide the fallbacks
 
-- **Judging fallback:** a virtual/asynchronous path that works if the physical process halts
-- **Medical:** who calls, who meets responders, who clears the room
-- **Schedule slip:** which blocks compress when (not if) you run late
-- **People buffer:** volunteers with no fixed assignment who absorb surprises
+You can't predict the specific emergency — our interviews include a mid-judging seizure, a pulled fire alarm that evacuated 1,500 hackers, a 2017 fire alarm that emptied a closing ceremony, and a **metal screw found in the catering**. You can pre-decide:
 
-Write the emergency plan at T-2 weeks. It's an hour of work that buys calm when it counts.
+- **Judging fallback:** the seizure event survived with a 30–45 minute delay *because* scoring already lived in Google Forms — they pivoted to fully-virtual judging on the spot. The format was the contingency plan.
+- **The panic rule:** the fire-alarm team evacuated 1,500 people, rewrote the opening ceremony script during the evacuation, and got everyone back inside in 15 minutes — and post-event feedback called the event smooth. Their codified rule, told to every coordinator: issues will happen; **the hackers must never see the stress.**
+- **Communicate up, not out:** when things break, tell participants the system is being fixed, projects are safe, and — as one European organizer puts it — "no one is dying." (Their feared partner blowback after the fire alarm never materialized.)
+- **Medical, schedule-slip, and floater roles** written down at T-2 weeks.
+
+The president who did the Walmart run compresses all of this into four words: "be flexible like rubber."
 
 ## Where AI helps
 
-- **Run-of-show stress testing.** Feed the schedule to an LLM and ask it to find conflicts: staffing gaps, impossible transitions, rooms double-booked, meal timing colliding with judging. It's a tireless line-by-line reviewer.
-- **Vendor comms.** Quote requests, follow-ups, and delivery confirmations across a dozen vendors is exactly the templated-but-personalized writing LLMs do well.
-- **Day-of question deflection.** A bot over your logistics FAQ (wifi password, parking, schedule) in the participant Discord answers the 200 questions your organizers otherwise answer individually — the Hack the North internal pattern, pointed outward.
-- **Capacity math.** Meals per dietary restriction, tables per room, volunteers per shift — constraint arithmetic that's easy to get wrong at 2 AM the week before.
+- **Run-of-show stress testing.** Feed the schedule to an LLM and have it hunt conflicts: staffing gaps, impossible transitions, meal timing colliding with judging. A tireless line-by-line reviewer.
+- **The admin-thread dashboard.** The nine-thread logistics director's actual wish list: an AI agent drafting her admin emails and a dashboard tracking every thread's state. If your logistics live in one inbox, this is the highest-leverage tool you can build.
+- **Day-of question deflection.** A bot over the logistics FAQ in the participant Discord absorbs the 200 wifi/parking/schedule questions organizers otherwise answer one at a time.
+- **Capacity math.** Meals per dietary restriction, tables per room, volunteers per shift — constraint arithmetic that's easy to get wrong the week before.
 
 ## Checklist
 
-- Venue contract signed with overnight, power, wifi, and food terms explicit
-- Food plan with dietary coverage and deliberate snack surplus
-- Portals live and tested before applications close
-- Run of show locked at T-2 weeks, owner per line, full run-through done
-- Emergency plan written: judging fallback, medical, schedule-slip rules
-- Day-of comms hardware (radios/walkies) distributed and tested
+- Venue contract with overnight, power, wifi, security, and food terms explicit — plus a fallback option scouted
+- Master logistics sheet shared with every admin stakeholder
+- Food: five quotes, dietary coverage, snack surplus, buffers in both directions
+- Portals tested on a smaller live event; manual fallback (wristbands!) staged
+- Run of show locked T-1–3 weeks, owner per line, ceremonies over-rehearsed
+- Submission-hour buffer built in; stressful-hour systems designed for calm
+- Emergency plan: judging fallback, medical, panic rule, floater roles

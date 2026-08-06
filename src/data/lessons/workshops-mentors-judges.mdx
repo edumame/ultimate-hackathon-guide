@@ -1,52 +1,62 @@
 # Workshops, Mentors, and Judges
 
-Partnering with speakers on programming, aligning judges on a rubric, and where AI judging tools fit.
+The uncomfortable truth about workshops, what mentors are becoming, and judging as the system that decides whether anyone learned anything.
 
-## Workshops: co-design with sponsors and speakers
+## The uncomfortable workshop truth
 
-Neither team we interviewed programs workshops top-down. They're decided **in partnership with the speakers and sponsor companies** — the sponsor brings the content and the staff, the organizers bring the audience and the slot. This is also a big part of what sponsors are buying (see [Sponsors and Funding](/sponsors-and-funding)).
+Multiple large events told us the same thing: **hackers mostly don't come to workshops.** At a 1,500-person European event, only 100–150 attended speaker sessions; a Southern California event has cut programming to ~7 total events across the weekend, concluding hackers came to hack. The structural lesson from the European org: side activities sharing space with the hacking floor fail — move them to entirely different rooms or floors, or don't run them.
 
-What organizers should still own:
+What still works:
 
-- **The level mix.** If half your room is first-timers, half your workshops should assume zero setup. Match the mix to your applicant data.
-- **The schedule position.** Intro workshops belong in the first hours, when teams are forming and hacking hasn't started. API-specific sponsor workshops belong after teams have committed to ideas.
-- **Beyond-the-laptop programming.** Memorable events program non-technical texture — the Santa Cruz team's logistics director organized a weather balloon launch as a shared spectacle. Mini-events, midnight snacks, and rituals do community work that workshops can't.
+- **Co-design with sponsors and speakers** — the sponsor brings content and staff, you bring the audience and the slot. This is part of what sponsors are buying.
+- **Broadly useful over API-specific.** A first-time organizer who'd sat through too many vendor tutorials as a participant programs entrepreneurship-style sessions instead, with one sponsor-required workshop as the floor.
+- **Pre-event workshop series as marketing.** The community-first Indian event runs multi-week workshop series year-round and free college workshops with industry speakers who then plug the hackathon — programming *before* the event, where attention is abundant.
+- **Spectacle and ritual.** The things hackers remember aren't sessions: a weather balloon launch, a custom PCB badge, USB-C charging-cable lanyards invented by a freshman, an AI-argument vending machine, borrowed dogs from the dorms, homemade-dalgona squid games, dollar-store lightsabers, llamas (and their six-person insurance saga), a photo booth printing branded strips. Notably, the cheap era of one flagship — no budget, borrowed dogs, broken lightsabers — was as beloved as the llama era. Texture beats spend.
 
-## Mentors: density over prestige
+## Mentors: moving up the stack
 
-Mentors are the highest-leverage people at a learning-first event — more than judges or speakers. Recruit from sponsor engineers, upper-year students, alumni, and local professionals. Match mentor coverage to your first-timer percentage, brief them to *unblock rather than build*, and make them findable: a help queue, a mentor table, colored lanyards — anything beats "wander and hope."
+The most interesting mentor finding: at one flagship, mentors are barely used for technical help anymore — "it's easier to ask Claude to fix your code than a mentor." They're repositioning mentorship toward big-picture ideas, design feedback, and pitch coaching, and may shrink the program.
 
-## Judging: rubric alignment is the hard part
+The mechanics that still matter: recruit from sponsor engineers, upper-year students, alumni; match density to your first-timer percentage (the Indian event keeps ~25 mentors circulating so any team reaches one within 2–3 minutes); brief them to *unblock, not build*; make them findable (help queue, mentor table, lanyards). And one governance rule paid for in pain below: mentors don't judge.
 
-The pattern from the field on judging mechanics:
+## Judging is a learning system, not just a ranking
 
-- **~3 judges per team**, with 100+ teams at the Santa Cruz event — judge recruitment is a numbers game, so start early.
-- **A shared online rubric, scored via Google Forms, with aggregated results.** Unglamorous and completely functional at real scale.
-- **Alignment before scoring.** The rubric only works if judges interpret it the same way. Brief judges together, walk one example project through the rubric, and state explicitly what matters (learning? polish? technical depth?) — it follows from your event's purpose.
+My research bias, up front: judging is where hackathons most consistently fail as learning environments. Most participants leave with a score and a ranking and never hear *why* — and in my own study of event transcripts, neither of the two best-built projects at two AI-native hackathons won its event. The judges aren't bad people; they were never taught to evaluate or give feedback. **The bottleneck at a hackathon is the helpers, not the learners** — a single well-supported judge improves outcomes for dozens of teams.
 
-Design a judging flow that survives disruption: the Santa Cruz team's shift to fully-virtual judging during a medical emergency worked *because* their scoring already lived in a form, not on paper ([see the full story](/venue-logistics-run-of-show)).
+What the field does, at each scale:
 
-Two structural choices to make deliberately:
+- **Baseline (100+ teams):** ~3 judges per team, shared rubric, Google Forms, aggregated scores. Unglamorous and functional — and because scoring already lives in a form, it doubles as your emergency fallback.
+- **Anti-bias at 1,500:** the Indian event splits participants into 5 judging groups × 5 judges, so **every team is seen by ≥10 judges** — averaging out individual bias — across 7–8 criteria, scores hidden between judges, all compressed into 80–90 minutes with 7–8 minutes per team *including live feedback*. Their bar: judging must feel "fair and square" to everyone.
+- **Scale judges, not hours:** a Southern California event grew from 75 to ~100 judges and now targets **200+**, because pairwise-comparison rankings (they run on a peer tool) only stabilize with enough comparisons. Rather than stretch judging to four hours, they add judges — top projects should win on merit, not luck of the pairing. They recruit ~50 extra as a no-show buffer.
+- **Peer review at 1,500:** the European org has all participants review each other (bias-removal rationale), with a 5-project finals jury. The cost they now regret: electronic peer review killed the face-to-face, table-to-table judging that once forced people out of their friend groups and built community. They're actively consulting their own 2017 organizers about bringing it back. If you adopt peer review, know what you're trading away.
 
-1. **Demo format** — science-fair floor demos scale better and feel more energetic; stage pitches are higher-stakes and slower. Most large events use floor demos with a finalist stage round.
-2. **Feedback path** — first-timers benefit enormously from written judge feedback. If your purpose is learning, build it into the form.
+## Governance: judging is sacred
+
+Three hard-won rules:
+
+1. **Mentors don't judge.** The Indian event allowed it for years until mentor-favoritism incidents ("some experiences with some teams") forced the ban. Help and evaluation are conflicting roles.
+2. **Onboard external judges or don't use them.** One Florida event used partner-org judges with no onboarding — and hackers later heard through the grapevine they'd been "this close to winning." Leaked deliberations became a top complaint. The fix: judging went fully internal (organizers + professors), run "like a courtroom" — judges sign NDAs, disclose conflicts openly ("this is my friend, but…"), argue each project's merits, and several reviewers check repos for plagiarism (they've caught projects stolen from other events).
+3. **Alignment before scoring.** Brief judges together, walk one example through the rubric, state what your purpose says matters. Untrained judges "come in and figure it out themselves" — which is exactly the problem.
+
+Two design choices to make deliberately: **demo format** (science-fair floor demos scale and energize; stage pitches are slower and higher-stakes — most large events do floor demos plus a top-5 stage round) and **feedback path** — if your purpose is learning, written feedback per team is the single highest-leverage artifact your event can produce. Require comments, not just scores; structured, criterion-referenced rubrics with required comments measurably produce richer feedback. And keep the machine moving: downtime during judging is catastrophic — assign every judge to every project deliberately, verify the assignment counts in your system before doors, and pre-brief judges with a tiered read of submissions (what's demo-able, what's pre-built, what clusters by theme).
 
 ## Where AI helps
 
-Judging is where dedicated AI tooling for organizers is emerging fastest — tools like **Harp** and **Jury** target exactly this workflow:
+Judging is where dedicated organizer AI tooling is emerging fastest — one Texas team is building an AI-native judging platform they describe as the v2 of the pairwise tool "every US hackathon uses":
 
-- **Score aggregation and normalization.** Correcting for harsh vs. generous judges across hundreds of scores is a real statistical problem that spreadsheets handle badly.
-- **Assignment logistics.** Matching judges to teams under constraints (expertise, conflicts of interest, room geography, time) is a scheduling problem AI tools solve in seconds.
-- **Submission triage.** At 100+ submissions, AI summaries of each project (stack, what it does, what's demo-able) help judges arrive at each table oriented instead of cold.
-- **Feedback synthesis.** Turning three judges' rough notes into one coherent, kind feedback paragraph per team makes written feedback feasible at scale.
+- **Score aggregation and normalization** — correcting harsh vs. generous judges is a real statistical problem spreadsheets handle badly.
+- **Assignment logistics** — judges to teams under expertise, conflict, geography, and time constraints, solved in seconds; plus verification that every project actually has its judges.
+- **Submission triage** — AI summaries of each project so judges arrive at tables oriented, and organizers spot duplicate or private-video submissions before scoring starts.
+- **Feedback scaffolding** — the best result from my own research: AI-drafted feedback that judges *edit* beats both fully-manual and fully-automated. Generative AI raises the floor; the judge stays the judge. Progressive disclosure (scores first, AI-scaffolded comments after) respects the real constraint, which is judge time, not willingness.
 
-The line to hold: **AI assists judging operations; humans judge.** Ranking creative work is the judgment call your judges are there to make — and hackers can tell when it's outsourced.
+The line to hold: AI assists judging operations; humans judge. And hackers can tell.
 
 ## Checklist
 
-- Workshop slate co-designed with sponsors, leveled to your applicant mix
-- At least one non-technical spectacle or ritual programmed
-- Mentor coverage matched to first-timer percentage, with a findability system
-- Judges recruited early against a ~3-per-team target
-- Rubric + digital scoring form tested; judge alignment briefing scheduled
-- Judging fallback path defined (virtual/async)
+- Programming cut to what hackers actually attend; side activities get their own space
+- At least one piece of spectacle or ritual — cheap is fine, texture is the point
+- Mentors briefed toward unblocking, ideas, and pitch coaching; findability system live
+- Judge count matched to format (≥10 views/team averaged, or 200+ for pairwise), with no-show buffer
+- Mentor/judge separation enforced; external judges onboarded + NDA'd or not used
+- Rubric with required comments; alignment briefing; assignments verified in the system
+- Written feedback path to every team — the artifact that makes it a learning event

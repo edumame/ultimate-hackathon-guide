@@ -89,9 +89,16 @@ const lessons = [
       },
       {
         id: "recruiting-participants",
-        title: "Recruiting Participants",
+        title: "Recruiting Participants and Admissions",
         description:
-          "Promotion channels, application review at scale, and designing for first-time hackers.",
+          "Application review at scale, team-linked admissions, the yield math nobody teaches you, and designing for first-time hackers.",
+        video: null,
+      },
+      {
+        id: "marketing-and-storytelling",
+        title: "Marketing and Storytelling",
+        description:
+          "Annual marketing arcs, serialized themes, viral moments, and why one event doubled applications with a real campaign.",
         video: null,
       },
     ],

@@ -1,50 +1,60 @@
-# Recruiting Participants
+# Recruiting Participants and Admissions
 
-Promotion channels, application review at scale, and designing for first-time hackers.
+Application review at scale, team-linked admissions, the yield math nobody teaches you, and designing for first-time hackers.
+
+## The demand spectrum is wider than you think
+
+Before tactics, calibrate: a 1,200-hacker Texas event pulled 3,000–3,500 applications with almost no marketing — a website, word of mouth, and two Instagram posts — and has waitlisted hackers **camping overnight in tents** for no-show spots. A Stanford-scale flagship gets 15,000 applications for 1,000 seats. China's largest student hackathon: 6,928 applications, ~10% acceptance. Meanwhile a high-school organizer's carefully planned event for underrepresented students got 60 signups and **7 attendees**, and a first-ever college hackathon fought for every registration. Your strategy depends entirely on which end of this spectrum you're on — brand compounds, and until you have one, distribution is the whole game.
 
 ## Channels that actually filled rooms
 
-From the interviews, the channels that produced real registrations:
+- **The school email blast.** Multiple teams got their engineering school to email every student — one official email outperforms weeks of posters. The administrative relationship is the real work.
+- **Professors as distribution.** One BC organizer's team uses AI to scrape professor contact databases across universities, then emails professors asking them to post the event to their class pages — routing through instructors who already have the class's attention.
+- **Cross-promotion with other hackathons**, ambassador programs, and hacker-exchange deals (several flagships auto-accept a handful of each other's organizers — cheap goodwill that spreads your name).
+- **What failed:** one organizer emailed every school district in and around a major city — public and private, with flyers — and got *zero* attendees from any of them. Institutional email to minors' gatekeepers is a dead channel; go where the students actually are.
 
-- **The engineering school email blast.** Both teams we interviewed got their school to email every engineering student. One official email outperforms weeks of posters. Building the administrative relationship is the real work.
-- **Legacy and brand.** Established events lean on years of accumulated reputation in the collegiate hackathon community. If you don't have legacy, borrow it: partner hackathons cross-promoting each other was a core tactic for the Santa Cruz team.
-- **Regular social cadence.** Not one announcement — a steady drumbeat, with posts spiking around application deadlines.
-- **Community-specific outreach.** Reaching out directly to underrepresented tech groups both diversifies the room and taps networks your general promotion misses.
+## Admissions: the four working models
 
-## Applications: three rounds and hand review
+1. **Hand-read everything, twice.** One flagship has every application read by ≥2 directors across three rounds (priority, regular, late) spanning a month, ~5–6 hours per director for the priority round alone. Their selection bar is character, not skill: would this person, at 2 AM on their third Red Bull with their own code breaking, help the stranger next to them? They reframe review as a perk — a rare chance to sit with hackers' passions before the event.
+2. **Rubric + leaderboard at volume.** A Southern California event scores every application on three axes — technical ability, creativity, passion — where passion is operationalized as *likelihood of showing up* (naming a specific track is a strong signal). Every app is scored at least twice by a 40-person review corps, with a **grader leaderboard** (prizes for the top three; one grader read 844 applications) and per-grader statistics so no reviewer is systematically harsh or generous.
+3. **Triple-review at mega-volume.** The Chinese org routes all ~7,000 applications through three independent internal reviewers on a self-built portal.
+4. **Accept the serious.** The 400-hacker campus event reads all 500+ applications (split evenly across 12 organizers) and accepts anyone with a well-written, serious response — a light filter matched to a learning-first purpose.
 
-The strongest application process we've documented, from Hackathon at Berkeley:
+Pick the model that matches your volume and purpose. All four teams agree on one thing: **someone human reads every application.**
 
-- **Three application rounds** — priority, regular, and late — collectively spanning about a month. Rounds create urgency (apply early for better odds) and smooth the review load.
-- **Every application is hand-read by at least two directors.** For priority-round volume, directors each spend roughly 5–6 hours reviewing.
-- **The selection criterion is collaborative builders** — their framing: would this person help someone else at 2 AM when the code is breaking? Not raw skill. Not resume.
+## Team-linked admissions: the single best yield fix we found
 
-The Santa Cruz team, with 500+ applications and 12 organizers, split the pile evenly across the whole team and accepted anyone with well-written, serious responses — a lighter-touch filter matched to their capacity and learning-first purpose.
+The Southern California event traced a painful attendance miss to a structural cause: applicants applied solo, and when one teammate was rejected, the *whole team* silently no-showed. Their fix — applicants can link applications into teams of up to four; if **two or more members clear the bar, the entire team is accepted**. Whole groups get in, whole groups show up. Complete-team admissions attacks the no-show problem at its root: people attend with their friends or not at all.
 
-Use an **RSVP confirmation system** after acceptance, and send reminders as the event approaches — acceptance-to-attendance drop-off is where headcounts die.
+Layer on the standard yield machinery: over-accept against your measured yield (~70% × ~70% at that event, stable for five years), RSVP deadlines with one-click extensions, waitlist backfill on-site, and — from the community-first Indian event — the full engagement press: a **team video submission with the application** (forcing teammates to meet before the event), a personal phone call to every accepted team, touchpoints every alternate day, buses from the airport, and prizes for the first 20 teams to arrive. Their line: guests should "feel like home" and have to plan nothing except attending.
+
+## The AI-application question
+
+Every team has now had to take a position:
+
+- **Auto-reject:** one Texas team instantly rejects GPT-written essays — unannounced. The AI essay itself signals low effort, and effort is their best attendance predictor.
+- **Tolerate:** the campus event accepts AI-assisted applications knowingly — "you still have to feed it real information," so a thoughtful response processed through AI still signals intent.
+- **Refuse AI in review:** two flagships hand-read everything as a matter of identity ("absolutely not").
+- **Reject AI review for fairness:** the Southern California director considered AI screening and rejected it — black-box decisions with no human input, unfair to applicants with heterogeneous materials, and expensive at 5,500 applications. She remains open to it; 11,000 human reviews "is a lot."
+
+Whatever your policy, the durable answer is better questions: ask for specifics (what did you build, what broke, link the coolest thing you've made) that are cheap for genuine builders and expensive to fake.
 
 ## Design for first-timers deliberately
 
-First-time hackers were 25–33% of Berkeley's flagship and **56%** at Santa Cruz. If half your room has never hacked before, that's not a side audience — that's your audience. It should shape team formation events, workshop levels, mentor density, and how judging feedback is delivered.
-
-Ask on the application. Know the number before the event, and design for it.
+First-timer share ranged from 25–33% at one flagship to 56% at the campus event — and the community event *engineers* ≥70% new hackers on purpose. If half your room has never hacked, that's not a side audience; it's the audience. It should shape team formation (one flagship runs a Slack channel + a matching algorithm that deliberately seeds experienced hackers with beginners + an in-person mixer — "nobody who flew across the country should end up teamless"), workshop levels, mentor density, and how judging feedback is delivered. My own research says the deeper reason this matters: novices have the most *variable* experience at hackathons, and that variance — not the average — is what decides whether they ever come back.
 
 ## Where AI helps
 
-This is the area with the clearest AI adoption among top-tier events:
-
-- **Application surfacing, not application deciding.** TreeHacks uses AI to bold and surface key details in applications so human reviewers focus attention where it matters. This is the pattern to copy: AI compresses reading time, humans keep judgment. The "would they help at 2 AM" call stays human.
-- **Two-reader consistency.** With multiple reviewers, an LLM pass can flag applications where readers diverged sharply, so a third reader adjudicates the borderline cases rather than random ones.
-- **Applicant-pool profiling.** Cluster the pool by experience and interests before finalizing workshops and challenge tracks.
-- **Comms sequences.** Acceptance, RSVP nudge, logistics, day-before hype — draft the full sequence in one sitting, personalized by applicant segment (first-timer vs. veteran).
-
-A caution from the field: reviewers told us AI-written applications are increasingly common. The answer isn't an arms race of detectors — it's application questions that ask for specifics (what did you build, what broke, what would you build here) that are cheap for a genuine builder to answer and expensive to fake convincingly.
+- **Surface, don't decide.** The pattern with the best risk/reward: AI highlights key details in each application so human reviewers spend attention on judgment instead of scanning. (Adoption is genuinely mixed — some flagship teams refuse even this.)
+- **Reviewer consistency.** Flag applications where two readers diverged sharply so a third adjudicates the borderline cases rather than random ones.
+- **Professor/channel research** at scale, per the BC team's scraping pipeline.
+- **Comms sequences** — acceptance, RSVP nudge, logistics, day-before hype — drafted in one sitting, segmented first-timer vs. veteran.
 
 ## Checklist
 
-- School/administrative email channel secured
-- Promotion calendar with deadline-spike cadence
-- Application rounds scheduled with review-hours budgeted per reader
-- Selection criterion written down and shared with every reviewer
-- First-timer percentage tracked and fed into program design
-- RSVP + reminder sequence scheduled through event day
+- School/administrative email channel secured; dead channels (district blasts) skipped
+- Review model chosen to match volume; every application touched by a human
+- Team-linked admissions or an equivalent whole-group acceptance rule
+- Yield model with over-acceptance buffer; RSVP + reminder sequence scheduled
+- AI-application policy decided (and reflected in what your questions ask for)
+- First-timer percentage tracked and fed into team formation, workshops, and mentoring

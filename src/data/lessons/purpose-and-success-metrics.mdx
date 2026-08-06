@@ -8,56 +8,66 @@ Every downstream decision — venue size, application process, sponsor mix, judg
 
 Common purposes, each with different design implications:
 
-- **Learning-first** — optimize for first-time hackers, workshops, and mentorship density. Winners matter less than completion rates.
-- **Community-first** — optimize for return attendance, unstructured social time, and organizer-hacker interaction.
-- **Recruiting or sponsor-first** — optimize for polished demos, sponsor booths, and career touchpoints.
-- **Innovation or theme-first** — optimize for a specific domain (health, climate, AI) with expert judges and domain challenges.
+- **Learning-first** — optimize for first-time hackers, mentorship density, and completion rates. One event we studied ran at 56% first-timers and accepted anyone with a serious application.
+- **Community-first** — optimize for return attendance and unstructured social time. A six-season event in India deliberately holds a 70/30 new-to-returning ratio and runs a 7,000-member community year-round; the hackathon is just its annual peak.
+- **Recruiting or sponsor-first** — optimize for polished demos and career touchpoints. One European org explicitly sells sponsors on watching how candidates "work, communicate, and solve problems" before hiring them.
+- **Innovation or theme-first** — optimize for a domain (defense tech, quantum, healthcare) with expert judges and partner-set challenges.
 
-Pick one primary purpose. You can serve the others, but when two goals conflict at 2 AM on event day, the primary purpose is the tiebreaker.
+Pick one primary purpose. When two goals conflict at 2 AM on event day, the primary purpose is the tiebreaker.
+
+My own bias, for what it's worth: hackathons are the cradle of grassroots entrepreneurship, and the thing they actually produce is a mindset shift. In 48 hours most people won't build much — but standing close to founders and builders they admire, shipping something with strangers, changes what they believe they can do. Design for that, and the demos take care of themselves.
 
 ## The scale trade-off is real
 
-The most striking finding from our interviews: **large events stop feeling like hackathons.**
+The most striking finding across interviews: **large events stop feeling like hackathons.**
 
-Organizers at Hackathon at Berkeley, who run both a 3,000+ hacker flagship in San Francisco and a smaller summer AI hackathon on campus, told us the flagship starts feeling "more like an expo" — while the smaller event keeps a calmer, more collaborative energy that they associate with the actual hacker spirit.
+The team behind a 3,000+ hacker West Coast flagship told us candidly that past that scale the event "starts feeling less like a hackathon and more like an expo" — and that the single biggest improvement available to them might be scaling *down*. Their smaller summer event keeps the calm, collaborative energy they associate with the actual hacker spirit. Worse, their organizing team had *shrunk* year-over-year while the event grew — Wi-Fi failed at scale, and the unstructured time organizers use to stay connected to hackers evaporated.
 
-Scale isn't free. It costs:
+Scale costs:
 
-- **Organizer attention.** More hackers require more organizers and volunteers per function, and coordination overhead grows faster than headcount.
+- **Organizer attention.** Coordination overhead grows faster than headcount, and the org must scale alongside the event — not after it.
 - **Intimacy.** At 300 people, organizers know hackers' names. At 3,000, they manage crowd flow.
 - **Purpose drift.** Sponsor obligations and production logistics start dictating the schedule.
 
-None of this means "don't scale." It means scale is a purpose decision: an expo-style flagship is a legitimate event — if that's what you chose on purpose.
+None of this means "don't scale." It means scale is a purpose decision — an expo-style flagship is a legitimate event, *if that's what you chose on purpose*.
 
 ## Protect "dilly-dally time"
 
-One of our favorite pieces of advice from the interviews: deliberately preserve unstructured time for organizers to wander the venue and talk to hackers. The Berkeley team calls this staying grounded — when organizers spend the whole event heads-down on logistics, they lose touch with the reason the event exists.
+One of our favorite tactics from the interviews: that same flagship team deliberately schedules unstructured blocks for organizers to wander the floor and look at hackers' projects. They call it "dilly-dally time," and they treat losing it as a real cost — it's the grounding mechanism that reminds a team why they sit through sponsor calls and food-vendor negotiations. If your run of show has every organizer occupied every hour, your event is overplanned.
 
-If your run of show has every organizer occupied every hour, your event is overplanned. Schedule slack.
+## Know your yield math
+
+Purpose determines who you accept; yield math determines how many. The numbers from the field:
+
+- A 1,000-hacker event in Southern California sees **~70% yield at acceptance→RSVP and ~70% again at RSVP→attendance** — stable across five years. They over-accept accordingly.
+- The same event once "accepted the wrong number of people" and badly under-filled the venue — the two causes were a rival event the same weekend, and teammates being rejected while their friends got in (so entire teams no-showed). Their fix is in [Recruiting and Admissions](/recruiting-participants).
+- A high-school organizer running a niche event saw **60 signups become 7 attendees** — free events for audiences with weak switching costs can see 90% no-show. RSVPs are not people.
+- Meanwhile a 1,200-hacker Texas event has hackers **camping overnight in tents** for waitlist spots. Demand varies wildly; measure yours, don't assume.
 
 ## Metrics that match the purpose
 
-Measure what your purpose says matters, not what's easy to count:
-
 | Purpose | Leading metrics |
 | --- | --- |
-| Learning | % first-time hackers, % teams that submit, workshop attendance |
-| Community | Return-attendee rate, organizer-hacker interactions, post-event community activity |
+| Learning | % first-time hackers, % teams that submit, feedback delivered per team |
+| Community | Return-attendee rate, year-round community activity, organizer-hacker interactions |
 | Recruiting | Sponsor-hacker conversations, resume-book opt-ins, offers traced to the event |
-| Innovation | Projects continued after the event, domain-expert judge scores |
+| Innovation | Projects continued after the event, partner-challenge submission counts |
 
-Two reference points from our interviews: Hackathon at Berkeley's flagship runs at roughly **25–33% first-time hackers**; PASS Hackathon 2026 at UC Santa Cruz ran at **56% first-timers**. Neither number is "right" — they reflect different purposes. Know yours before the event, so the number you see afterward means something.
+Reference points from the field: 25–33% first-timers at one flagship, 56% at a 400-hacker campus event, a deliberate 70% at the community-first Indian event, ~50/50 at two others. None of these is "right" — they reflect different purposes. Know your number before the event so the number after means something.
+
+One more metric, from an executive director's post-event realization: **sponsor retention tracks project submissions**, not workshop volume. Sponsors renew when hackers actually built on their stuff. If sponsors matter to you, "% of teams submitting to partner challenges" belongs on your dashboard.
 
 ## Where AI helps
 
-- **Survey synthesis.** Post-event feedback at any real scale is unreadable by hand. LLMs are genuinely good at clustering hundreds of free-text responses into themes with representative quotes — turning your feedback form into an actual instrument.
-- **Application analytics.** The same tooling that helps review applications (see [Recruiting Participants](/recruiting-participants)) can profile your applicant pool — experience levels, school mix, interests — before you finalize programming.
-- **Goal tracking.** A simple dashboard fed from your registration and submission systems answers "are we on track?" without a weekly manual count.
+- **Survey synthesis.** Post-event feedback at any real scale is unreadable by hand. LLMs cluster hundreds of free-text responses into themes with representative examples — turning the feedback form into an instrument.
+- **Applicant-pool profiling.** The same tooling that supports review can profile your pool — experience levels, school mix, interests — before you finalize programming.
+- **A live dashboard** fed from registration and submissions answers "are we on track?" without a weekly manual count.
 
 ## Checklist
 
 - One-sentence primary purpose, agreed by the whole leadership team
 - Target scale chosen deliberately, with the expo trade-off discussed
+- Yield model written down (acceptance → RSVP → attendance) with over-acceptance buffer
 - 3–5 metrics defined *before* the event, each traceable to the purpose
 - Unstructured organizer time protected in the run of show
 - Post-event survey drafted early, so day-of data collection isn't an afterthought
