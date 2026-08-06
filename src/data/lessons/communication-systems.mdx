@@ -1,0 +1,49 @@
+# Communication Systems
+
+The single most-cited failure mode in our interviews is a communication breakdown. Here's how teams prevent it.
+
+## The NVIDIA story
+
+When we asked organizers for their biggest learning, both teams we interviewed said some version of the same thing: **clear communication — everyone must know what's happening.**
+
+The concrete failure behind that lesson: at one event, the sponsorship director and the logistics director both pursued **NVIDIA as a sponsor, concurrently, without coordination.** Overlapping outreach to the same company, no clarity on who owned the relationship, and confusion about how a joint presentation would even work. The deal survived; the lesson stuck: *it's important to know who is doing what* — and a rule that new developments get broadcast to the whole team, not held in one function's lane.
+
+Communication failures at hackathons are almost never about tools. They're about **ownership ambiguity** and **information silos**. The systems below exist to kill those two things.
+
+## The channel architecture that works
+
+Both interviewed teams converged on a two-platform split:
+
+- **Discord for participants** — hackers already have it, onboarding is one click, and channel structure (announcements, help queues, team formation, per-track channels) maps well to an event.
+- **Slack for the organizing team** — internal task coordination, function channels, and sponsor threads, kept separate so organizer chatter never leaks and participant noise never buries decisions.
+
+Layered on top:
+
+- **Weekly all-hands** (Sunday, in both teams) — the one meeting where every function reports, and cross-function surprises surface. This is where the NVIDIA collision *should* have been caught.
+- **Direct 1:1 follow-ups** — directors chase specifics with organizers personally between meetings; the all-hands is for sync, not management.
+- **Walkie-talkies on event day** — instant push-to-talk beats phones for floor coordination. Radios for the core team, a dispatch channel norm, and a fallback text thread.
+
+## Rules that prevent silos
+
+Tools don't fix silos; norms do. The ones we'd extract from the field:
+
+1. **One owner per external relationship.** Every sponsor, vendor, and venue contact has exactly one named owner. Anyone else who wants to touch that relationship goes through them.
+2. **Log before you send.** Outreach gets logged in the shared tracker *before* the email goes out — the collision is prevented at write time, not discovered at the all-hands.
+3. **Broadcast changes, don't archive them.** If anything new happens — a sponsor commits, a room falls through, a speaker cancels — it goes to the team channel that day. The failure mode is information sitting in one person's inbox.
+4. **Participants get one authoritative channel.** All schedule changes land in a single announcements channel; everything else (posters, stage announcements) points to it.
+
+## Where AI helps
+
+- **The Hack the North pattern.** Their AI Slack bot resurfaces past questions organizers have already answered — so nobody repeats work twice. Organizing teams answer the same questions every year across generations of organizers; a bot over past channels, docs, and decision logs is compounding institutional memory. This is the single most impactful internal AI adoption we've seen from a top-tier team.
+- **Participant FAQ deflection.** The same pattern pointed outward: a bot in the participant Discord answering wifi/parking/schedule/submission questions from your logistics docs, escalating to humans on anything novel.
+- **Meeting-to-action pipelines.** Transcribe the weekly all-hands, extract action items with owners, and post them to the team channel — the sync meeting produces an artifact automatically.
+- **Announcement drafting.** Day-of announcements are written under pressure; drafting the predictable ones ahead (doors, meals, deadlines, judging calls) with an LLM leaves humans handling only the surprises.
+
+## Checklist
+
+- Discord (participants) and Slack (organizers) structured before applications open
+- Weekly all-hands with every function reporting, through the whole build
+- One named owner per external relationship, enforced
+- Log-before-send norm on all outreach
+- Day-of radio plan with channel norms and a text fallback
+- Single authoritative announcements channel for participants
